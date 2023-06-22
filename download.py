@@ -1,3 +1,6 @@
+# python script for downloading data from footystats
+
+
 import time
 from selenium import webdriver
 
@@ -27,8 +30,8 @@ time.sleep(5) # Let the user actually see something!
 
 
 driver.get('https://footystats.org/c-dl.php?type=matches&comp=3121');  # Sample download 1
-driver.get('https://footystats.org/c-dl.php?type=matches&comp=3119');  # Sample download 2
-driver.get('https://footystats.org/c-dl.php?type=matches&comp=246')
+driver.get('https://footystats.org/c-dl.php?type=matches&comp=6089');  # Sample download 2
+driver.get('https://footystats.org/c-dl.php?type=matches&comp=4912')
 driver.get('https://footystats.org/c-dl.php?type=matches&comp=12')
 driver.get('https://footystats.org/c-dl.php?type=matches&comp=11')
 driver.get('https://footystats.org/c-dl.php?type=matches&comp=10')
